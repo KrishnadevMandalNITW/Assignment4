@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div align="center">
+        <h2>Registration Form</h2><hr width="30%">
+        <form action="#">
+            <table border="1" width="50%" text-align="center" height="900px">
+                <tbody>
+                    <tr>
+                        <th colspan="2">Persional Details</th>
+                    </tr>
+                    <tr>
+                        <td><label>First Name : *</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name : *</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email : *</label></td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone Number : </label></td>
+                        <td><input type="number" size="10"></td>
+                    </tr>
+    
+                    <tr>
+                        <th colspan="2">Account Details</th>
+                    </tr>
+                    <tr>
+                        <td><label>Username : *</label></td>
+                        <td><input type="text" required maxlength="15" minlength="5"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password : *</label></td>
+                        <td><input type="password" required minlength="8"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirm Password : *</label></td>
+                        <td><input type="password" required></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Address</th>
+                    </tr>
+                    <tr>
+                        <td><label>Address Line 1 : *</label></td>
+                        <td><textarea name="Address1" cols="50" rows="5" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Address Line 2 : </label></td>
+                        <td><textarea name="Address2" cols="50" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>City : *</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>State : </label></td>
+                        <td>
+                            <select name="State" required>
+                                <option value="select">select</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Delhi">Delhi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>ZIP Code : *</label></td>
+                        <td><input type="number" required size="5"></td>
+                    </tr>
+    
+                    <tr>
+                        <th colspan="2">Preferences</th>
+                    </tr>
+                    <tr>
+                        <td><label>Gender : *</label></td>
+                        <td>
+                            <input type="radio" required>Male
+                            <input type="radio" required>Female
+                            <input type="radio" required>Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Subscribe : </label></td>
+                        <td>
+                            <input type="checkbox">Wikipedia
+                            <input type="checkbox">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Short Bio : </label></td>
+                        <td><textarea name="bio" cols="50" rows="5" maxlength="200" placeholder="Tell us about yourself..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="center">
+                            <input type="checkbox" required>
+                            <label >I agree to the Terms and Conditions *</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="center">
+                            <input type="submit" value="Register">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <br><br><hr width="30%">
+        <div>
+            <h2>Terms and Conditions</h2>
+            <iframe src="terms.html" frameborder="0" ></iframe>
+        </div>
+    </div>
+</body>
+</html>

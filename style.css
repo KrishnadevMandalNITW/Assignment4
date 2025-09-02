@@ -1,0 +1,41 @@
+form{
+    font-size: 20px;
+}
+table{
+    box-shadow:0.02em 0 0.4em black;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.543);
+    padding: 10px;
+}
+
+td{
+    padding: 5px;
+}
+ 
+iframe{
+    width: 40%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.715);
+    border-radius: 5px;
+}
+
+p, ul li{
+    font-size: 18px;
+    color: gray;
+}
+
+.center{
+    text-align: center;
+}
+
+.center input{
+    font-size: 18px;
+    padding: 5px;
+}
