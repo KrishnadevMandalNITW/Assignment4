@@ -1,4 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 form{
+    margin-top: 20px;
     font-size: 20px;
 }
 
@@ -47,3 +53,4 @@ p, ul li{
     padding: 5px;
 
 }
+
