@@ -1,6 +1,13 @@
 form{
     font-size: 20px;
 }
+
+h1{
+    background-color: rgba(41, 41, 96, 0.974);
+    color: white;
+    padding: 10px;
+}
+
 table{
     box-shadow:0.02em 0 0.4em black;
 }
@@ -38,4 +45,5 @@ p, ul li{
 .center input{
     font-size: 18px;
     padding: 5px;
+
 }
